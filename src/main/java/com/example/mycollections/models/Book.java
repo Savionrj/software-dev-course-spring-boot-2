@@ -25,4 +25,12 @@ public class Book extends LibraryItem {
     public void setPages(int pages) {
         this.pages = pages;
     }
+
+    public String toString() {
+        return "name: " + getName() +
+                ", author: " + author +
+                ", year: " + getYear() +
+                ", pages: " + pages +
+                '\n';
+    }
 }
